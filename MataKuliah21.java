@@ -16,15 +16,22 @@ public class MataKuliah21 {
     }
 
     void tambahData(Scanner absen21){
-            System.out.print("Kode         : ");
-            kode = absen21.nextLine();
-            System.out.print("Nama         : ");
-            nama = absen21.nextLine();
-            System.out.print("SKS          : ");
-            sks = absen21.nextInt();
-            System.out.print("Jumlah Jam   : ");
-            jumlahJam = absen21.nextInt();
-            absen21.nextLine();
-            System.out.println("----------------------------------------");
+        System.out.print("Kode         : ");
+        kode = absen21.nextLine();
+        System.out.print("Nama         : ");
+        nama = absen21.nextLine();
+        System.out.print("SKS          : ");
+        sks = absen21.nextInt();
+        System.out.print("Jumlah Jam   : ");
+        jumlahJam = absen21.nextInt();
+        absen21.nextLine();
+        System.out.println("----------------------------------------");
+    }
+    void cetakInfo(){
+        System.out.println("Kode        : " + kode);
+        System.out.println("Nama        : " + nama);
+        System.out.println("SKS         : " + sks);
+        System.out.println("Jumlah Jam  : " + jumlahJam);
+        System.out.println("----------------------------------------");
     }
 }
